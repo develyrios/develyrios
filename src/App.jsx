@@ -5,6 +5,7 @@ import { Cursos } from "./components/Cursos";
 import { ConteudoEmDestaque } from "./components/ConteudoEmDestaque";
 import { Redes } from "./components/Contato";
 import GlobalStyle from "./styles/GlobalStyle";
+import { Experiencias } from "./components/Experiencias";
 
 export const App = () => {
   return (
@@ -13,6 +14,7 @@ export const App = () => {
       <Header />
       <SobreMim />
       <Projetos />
+      <Experiencias />
       <Cursos />
       <ConteudoEmDestaque />
       <Redes />

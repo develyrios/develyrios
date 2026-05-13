@@ -26,8 +26,8 @@ export const SobreMim = () => {
         <Resumo>
           <Titulo2>Resumo</Titulo2>
           <Paragrafo>
-            Sou <strong>Dev Front-End</strong> com uma paixão por comunicação e
-            criação de conteúdo. A mentalidade que levo pra minha carreira e
+            Sou <strong>Dev Front-End</strong> com uma paixão por tecnologia,
+            comunicação e ensino. A mentalidade que levo pra minha carreira e
             pros meus projetos é sempre buscar criar soluções de forma criativa
             e inovadora!
           </Paragrafo>
@@ -41,10 +41,10 @@ export const SobreMim = () => {
           </Paragrafo>
 
           <Paragrafo>
-            <strong>Estou em busca de oportunidades como Junior</strong> na área
-            de desenvolvimento front-end, em que eu possa exercer todas as
-            minhas habilidades e competências além de poder crescer e evoluir
-            como profissional.
+            <strong>Estou em busca de oportunidades</strong> na área de
+            desenvolvimento front-end, em que eu possa aplicar e desenvolver
+            minhas habilidades técnicas, comportamentais e interpessoais, onde
+            eu possa crescer e evoluir como profissional.
           </Paragrafo>
 
           <Paragrafo>

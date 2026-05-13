@@ -10,7 +10,7 @@ import {
   Background,
 } from "./style";
 import { Span } from "../../styles/Text";
-import fotoDePerfil from "../../assets/foto.svg";
+import fotoDePerfil from "../../assets/foto2.svg";
 import logoGrande from "../../assets/logo-grande.svg";
 import logoPequena from "../../assets/logo-pequena.svg";
 import mouse from "../../assets/icone-mouse.svg";
@@ -41,11 +41,15 @@ export const Header = () => {
         </HeaderParagrafo>
 
         <Links>
-          {/* <li>
-            <a href="#" className="b16" target="blank">
+          <li>
+            <a
+              href="https://drive.google.com/file/d/1kZJVtQmxhnwCywC9OaM2STVeCdP2YW1x/view?usp=sharing"
+              className="b16"
+              target="blank"
+            >
               <img src={curriculo} alt="(Abre uma nova guia)" /> Currículo
             </a>
-          </li> */}
+          </li>
           <li>
             <a
               href="https://www.linkedin.com/in/bevfeitosa"

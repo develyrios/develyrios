@@ -39,6 +39,8 @@ export const Projetos = () => {
           nome="universe"
           descricao="Rede social fictícia de astronomia. Desenvolvi o projeto para o curso de Front-End Básico do TransDevs que ministrei. Foi pensado para alunes reproduzirem usando os conhecimentos passados."
           stacks="HTML e CSS"
+          link="universe-social.vercel.app/"
+          repositorio="https://github.com/develyrios/universe"
         />
       </ul>
     </Container>

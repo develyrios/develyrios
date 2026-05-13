@@ -11,11 +11,11 @@ export const Container = styled.li`
   transition: 400ms;
 
   :nth-child(odd) {
-    background-color: var(--off-black);
+    background-color: var(--preto);
   }
 
   :hover {
-    border-left: 0.5rem solid var(--azul);
+    border-left: 0.5rem solid var(--verde-neon);
   }
 
   @media (max-width: 1000px) {
@@ -62,7 +62,7 @@ export const Texto = styled.div`
 
   h2::before {
     content: " ";
-    background-color: var(--azul);
+    background-color: var(--verde-neon);
     display: inline-block;
     height: 1.5rem;
     width: 0.25rem;

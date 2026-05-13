@@ -70,3 +70,12 @@ export const Span = styled.span`
     font-size: 1rem;
   }
 `;
+
+export const ListaDescritiva = styled.ul`
+  font-family: var(--nunito);
+
+  li {
+    list-style: disc;
+    list-style-position: inside;
+  }
+`;

@@ -47,7 +47,7 @@ export const Container = styled.div`
     width: 100%;
   }
 
-  @media (max-width: 1280px) {
+  @media (max-width: 1366px) {
     grid-template-columns: 1fr 40vw;
   }
 
@@ -106,7 +106,7 @@ export const HeaderSubTitulo = styled.h2`
     font-size: 2.5rem;
   }
 
-  @media (max-width: 1280px) {
+  @media (max-width: 1366px) {
     font-size: 1.75rem;
   }
 
@@ -135,7 +135,7 @@ export const HeaderParagrafo = styled.p`
     font-size: 1.75rem;
   }
 
-  @media (max-width: 1280px) {
+  @media (max-width: 1366px) {
     font-size: 1.25rem;
   }
 
@@ -190,7 +190,7 @@ export const Links = styled.ul`
     }
   }
 
-  @media (max-width: 1280px) {
+  @media (max-width: 1366px) {
     column-gap: 1.5rem;
 
     a {

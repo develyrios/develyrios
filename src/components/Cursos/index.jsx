@@ -18,16 +18,6 @@ export const Cursos = () => {
       <Titulo1>Cursos e Certificações</Titulo1>
       <ul>
         <Curso
-          nome="Mentoria Front-End"
-          instituicao="DiversificaDev"
-          ano="2024 / 2025"
-          descricao="Ministrei curso de 10 aulas de HTML e CSS básicos com atividades semanais. Ao final do curso foi proposto o projeto 'universe' para alunos reproduzirem."
-          stacks="HTML e CSS"
-          imgDesktop={universeDesktop}
-          imgMobile={universeMobile}
-        />
-
-        <Curso
           nome="Fundamentos de FrontEnd Development"
           instituicao="Descomplica"
           ano="2023"
