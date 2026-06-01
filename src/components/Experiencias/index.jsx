@@ -8,45 +8,49 @@ export const Experiencias = () => {
       <Titulo1>Experiências</Titulo1>
       <ul>
         <Experiencia
-          nome="Front-End Developer"
+          nome="Desenvolvedora Frontend"
           instituicao="Pedidu Software"
           subtitulo="Start-up de delivery e gestão de restaurantes"
           ano="Jun/2025 - Maio/2026"
-          stacks="React, JavaScript, HTML e CSS"
+          stacks="React | JavaScript | HTML5 | CSS3 | Kanban | GitFlow"
         >
           <ListaDescritiva>
             <li>
-              Desenvolvimento de novas funcionalidades e interfaces para o
-              sistema;
+              Atuação com total autonomia em ambiente remoto acelerado,
+              utilizando metodologia Kanban para gerenciar backlogs e demandas
+              de alta prioridade;
             </li>
             <li>
-              Manutenção e melhorias do sistema baseado em feedbacks dos
-              clientes;
-            </li>
-            <li>Auto-gestão de demandas e tarefas;</li>
-            <li>Atualização do sistema legado em PHP para React;</li>
-            <li>
-              Usabilidade do sistema em computadores menores e mais fracos;
+              Liderei a modernização do sistema migrando páginas críticas em PHP
+              para React, focando em componentização e Clean Code;
             </li>
             <li>
-              Portabilidade e responsividade do sistema para tablets, celulares
-              e totens de autoatendimento.
+              Refatorei rotas e responses de dados em parceria com o backend,
+              substituindo payloads pesados em HTML por estruturas em JSON;
+            </li>
+            <li>
+              Desenvolvi estratégias de cache para consumo das APIs do Google
+              Cloud (Maps e Routes), eliminando requisições redundantes de frete
+              e gerando economia financeira direta;
+            </li>
+            <li>
+              Otimizei interfaces para garantir a responsividade e a usabilidade
+              estável da plataforma em hardwares limitados (celulares antigos,
+              tablets e totens de autoatendimento);
             </li>
           </ListaDescritiva>
           <ListaDescritiva>
             <strong>Resultados</strong>:
             <li>
-              Redução do consumo de API de cerca de 80% e do consumo de memória
-              RAM;
-            </li>
-            <li>
-              Melhoria na navegação, responsividade e experiência de usuário.
+              Redução de cerca de 80% no consumo de APIs, otimização drástica do
+              uso de memória RAM no cliente e redução de custos de
+              infraestrutura.
             </li>
           </ListaDescritiva>
         </Experiencia>
 
         <Experiencia
-          nome="Front-End Developer"
+          nome="Desenvolvedora Frontend e Coordenadora de Aprendizagem"
           instituicao="DiversificaDev"
           subtitulo="Voluntariado"
           ano="Ago/2024 - Dez/2025"
@@ -54,46 +58,49 @@ export const Experiencias = () => {
         >
           <ListaDescritiva>
             <li>
-              Planejamento e desenvolvimento de projetos práticos e exercícios
-              didáticos em HTML, CSS;
+              Liderança, coordenação e alinhamento técnico da equipe de mentores
+              e monitores de Frontend;
             </li>
             <li>
-              Planejamento e condução de aulas com foco em didática inclusiva e
-              aprendizado prático;
+              Idealização e arquitetura de projetos práticos e materiais
+              didáticos (como o projeto Universe) focado em testes de lógica de
+              layout;
             </li>
             <li>
-              Desenvolvimento de materiais didáticos e recomendação de conteúdos
-              complementares;
+              Aplicação de metodologias de Design de Experiências de
+              Aprendizagem (DEXA) para desenhar jornadas de estudo ativas e
+              inclusivas;
             </li>
-            <li>Seleção e organização de alunos para as turmas e projetos;</li>
-            <li>Liderança e coordenação da equipe de mentoria;</li>
-            <li>Apresentação de eventos e palestras online.</li>
           </ListaDescritiva>
           <ListaDescritiva>
             <strong>Resultados</strong>:
             <li>
-              Mais de 500 pessoas trans impactadas pelos cursos da organização.
+              Mais de 500 pessoas trans e não-binárias impactadas e introduzidas
+              aos fundamentos do mercado de tecnologia.
             </li>
           </ListaDescritiva>
         </Experiencia>
 
         <Experiencia
-          nome="Front-End Developer"
+          nome="Desenvolvedora Frontend e Coordenadora de Equipe"
           instituicao="SOS Trans"
           subtitulo="Bootcamp"
           ano="Fev/2025 - Maio/2025"
         >
           <ListaDescritiva>
             <li>
-              Desenvolvimento de um aplicativo mobile-first focado em pessoas
-              trans;
+              Desenvolvimento frontend de uma aplicação mobile-first estruturada
+              dentro de um ecossistema ágil com papéis de PO, PM e Scrum Master;
             </li>
-            <li>Coordenação do time;</li>
             <li>
-              Elaboração de estratégias e dinâmicas para manter o engajamento do
-              time;
+              Responsável pelo processo seletivo, triagem e recrutamento de
+              participantes para a formação das squads de desenvolvimento;
             </li>
-            <li>Seleção dos participantes do projeto.</li>
+            <li>
+              Gestão de comunidade e mediação de conflitos sob alta pressão,
+              aplicando inteligência emocional para manter o alinhamento de
+              expectativas e retenção do time;
+            </li>
           </ListaDescritiva>
         </Experiencia>
       </ul>

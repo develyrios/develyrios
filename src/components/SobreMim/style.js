@@ -3,7 +3,7 @@ import hexagonosPequenos2x from "../../assets/hexagonos-pequenos-azul-2x.svg";
 import hexagonosPequenos1x from "../../assets/hexagonos-pequenos-azul-1x.svg";
 
 export const Container = styled.section`
-  background-image: url(${hexagonosPequenos2x});
+  background-image: url(${hexagonosPequenos1x});
   background-position: center left;
   background-repeat: no-repeat;
   background-size: auto;
@@ -11,10 +11,6 @@ export const Container = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  @media (max-width: 1366px) {
-    background-image: url(${hexagonosPequenos1x});
-  }
 
   @media (max-width: 800px) {
     background-size: contain;

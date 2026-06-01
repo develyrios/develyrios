@@ -39,7 +39,7 @@ export const Titulo2 = styled.h2`
   }
 `;
 
-export const Titulo3 = styled.h3`
+export const ParagrafoRodape = styled.p`
   font-family: var(--poppins);
   font-weight: 400;
   font-size: 1.5rem;

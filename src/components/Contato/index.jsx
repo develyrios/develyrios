@@ -1,4 +1,4 @@
-import { Span, Titulo1, Titulo3 } from "../../styles/Text";
+import { Span, Titulo1, ParagrafoRodape } from "../../styles/Text";
 import { Container, Links } from "./style";
 import { Item } from "../Item";
 import linkedin from "../../assets/icone-linkedin-azul.svg";
@@ -32,14 +32,22 @@ export const Redes = () => {
         </a>
       </Links>
 
-      <Titulo3>
+      <ParagrafoRodape>
+        Gostou do que viu? Vamos conversar!
+        <br></br>
+        <br></br>
+        Estou pronta para somar ao seu time com maturidade técnica, autonomia e
+        inteligência socioemocional. Seja para um bate-papo descontraído ou para
+        desenharmos uma solução para um projeto robusto, estou à disposição.
+        <br></br>
+        <br></br>
         Me mande um e-mail:{" "}
         <a href="mailto:bevfeitosa@gmail.com">
           <strong>bevfeitosa@gmail.com</strong>
         </a>
-      </Titulo3>
+      </ParagrafoRodape>
 
-      <Span>Desenhado e desenvolvido por Bev Feitosa - 2025</Span>
+      <Span>Desenhado e desenvolvido por Bev Feitosa - 2025 a 2026</Span>
     </Container>
   );
 };

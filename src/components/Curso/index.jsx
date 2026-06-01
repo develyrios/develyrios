@@ -25,42 +25,42 @@ export const Curso = ({
           <Span>
             <strong>{instituicao}</strong> - {ano}
           </Span>
-          <Paragrafo>{descricao}</Paragrafo>
-          <Paragrafo>
-            <strong>Stacks</strong>: {stacks}
-          </Paragrafo>
+          {descricao && <Paragrafo>{descricao}</Paragrafo>}
+          {stacks && (
+            <Paragrafo>
+              <strong>Stacks</strong>: {stacks}
+            </Paragrafo>
+          )}
         </Texto>
 
-        <Mockup>
-          <img src={imgDesktop} alt="Mockup desktop" />
-          <img src={imgMobile} alt="Mockup mobile" />
-        </Mockup>
+        {(imgDesktop || imgMobile) && (
+          <Mockup>
+            {imgDesktop && <img src={imgDesktop} alt="Mockup desktop" />}
+            {imgMobile && <img src={imgMobile} alt="Mockup mobile" />}
+          </Mockup>
+        )}
       </Conteudo>
 
-      {link && repositorio ? (
+      {(link || repositorio) && (
         <Links>
-          <a href={link} target="blank">
-            <Item
-              imgSrc={iconeLink}
-              imgAlt="(Abre o link do projeto em uma nova guia)"
-              nome={nomeDoProjeto}
-            />
-          </a>
-          <a href={repositorio} target="blank">
-            <Item
-              imgSrc={github}
-              imgAlt="(Abre o repositório do projeto em uma nova guia)"
-              nome={nomeDoProjeto}
-            />
-          </a>
-        </Links>
-      ) : (
-        <Links>
-          <Item
-            imgSrc={ampulheta}
-            imgAlt=""
-            nome="Projeto disponível em breve"
-          />
+          {link && (
+            <a href={link} target="blank">
+              <Item
+                imgSrc={iconeLink}
+                imgAlt="(Abre o link do projeto em uma nova guia)"
+                nome={nomeDoProjeto}
+              />
+            </a>
+          )}
+          {repositorio && (
+            <a href={repositorio} target="blank">
+              <Item
+                imgSrc={github}
+                imgAlt="(Abre o repositório do projeto em uma nova guia)"
+                nome={nomeDoProjeto}
+              />
+            </a>
+          )}
         </Links>
       )}
     </Container>

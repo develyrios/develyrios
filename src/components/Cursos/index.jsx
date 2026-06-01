@@ -18,29 +18,26 @@ export const Cursos = () => {
       <Titulo1>Cursos e Certificações</Titulo1>
       <ul>
         <Curso
+          nome="Formação em Design de Experiências de Aprendizagem (DEXA) & IA"
+          instituicao="NUMI Aprendizagem ativa"
+          ano="2025 - 2026"
+          descricao="Curso de Desing de Experiências de Aprendizagem que aborda a criação e aplicação de metodologias de aprendizagem humanizadas, dinâmicas e com foco na jornada do aprendiz. Atualmente, no curso, estamos estudando os impactos e usos da IA em diversas áreas de atuação."
+        />
+
+        <Curso
           nome="Fundamentos de FrontEnd Development"
           instituicao="Descomplica"
           ano="2023"
           descricao="Curso de Desenvolvimento Web com disciplinas extras como Projeto de Vida, Desing Thinking, UX e Metodologias Ágeis. No curso foi desenvolvido um projeto estilo Pinterest explorando React Router DOM e Local Storage"
           stacks="React e React Bootstrap"
-          imgDesktop={descompinDesktop}
-          imgMobile={descompinMobile}
-          nomeDoProjeto="Descompin"
-          link="https://bev-descompin.vercel.app/"
-          repositorio="https://github.com/develyrios/descompin"
         />
 
         <Curso
-          nome="React School"
+          nome="React School & Java School"
           instituicao="MJV Innovation & Technology"
           ano="2022"
           descricao="Curso de React em que, paralelo às aulas, foi desenvolvido um site de E-Commerce feito em grupo, aproximando a experiência do curso de uma experiência profissional."
           stacks="TypeScript e React"
-          imgDesktop={aquiexpressDesktop}
-          imgMobile={aquiexpressMobile}
-          nomeDoProjeto="Aquiexpress"
-          link="https://aquiexpress.vercel.app/"
-          repositorio="https://github.com/mjvturma07/ProjetoMJV"
         />
 
         <Curso
@@ -49,11 +46,6 @@ export const Cursos = () => {
           ano="2022"
           descricao="Curso de Front-End da Alura em que desenvolvi um site de adoção de pets, feito em mobile-first e a partir de um layout disponibilizado pela instituição."
           stacks="HTML, CSS e JavaScript"
-          imgDesktop={adopetDesktop}
-          imgMobile={adopetMobile}
-          nomeDoProjeto="Adopet"
-          link="https://adopets-develyrios.vercel.app/"
-          repositorio="https://github.com/develyrios/adopet"
         />
 
         <Curso

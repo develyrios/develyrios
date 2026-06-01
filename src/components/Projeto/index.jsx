@@ -10,6 +10,7 @@ export const Projeto = ({
   imgMobile,
   nome,
   descricao,
+  destaque_tecnico,
   stacks,
   link,
   repositorio,
@@ -24,7 +25,12 @@ export const Projeto = ({
 
         <Texto>
           <Titulo2>{nome}</Titulo2>
-          <Paragrafo>{descricao}</Paragrafo>
+          <Paragrafo>
+            <strong>Descrição</strong>: {descricao}
+          </Paragrafo>
+          <Paragrafo>
+            <strong>Destaque técnico</strong>: {destaque_tecnico}
+          </Paragrafo>
           <Paragrafo>
             <strong>Stacks</strong>: {stacks}
           </Paragrafo>

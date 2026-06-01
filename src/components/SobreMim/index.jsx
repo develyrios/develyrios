@@ -9,6 +9,7 @@ import {
 } from "./style";
 import rct from "../../assets/icone-react-azul.svg";
 import js from "../../assets/icone-javascript-azul.svg";
+import ts from "../../assets/icone-typescript-azul.svg";
 import css from "../../assets/icone-css-azul.svg";
 import html from "../../assets/icone-html-azul.svg";
 import git from "../../assets/icone-git-azul.svg";
@@ -26,31 +27,39 @@ export const SobreMim = () => {
         <Resumo>
           <Titulo2>Resumo</Titulo2>
           <Paragrafo>
-            Sou <strong>Dev Front-End</strong> com uma paixão por tecnologia,
-            comunicação e ensino. A mentalidade que levo pra minha carreira e
-            pros meus projetos é sempre buscar criar soluções de forma criativa
-            e inovadora!
+            Sou <strong>Desenvolvedora Frontend</strong> com sólida experiência
+            em <strong>React e JavaScript</strong>. Minha trajetória traz uma
+            convergência única: a <strong>mentalidade analítica</strong> da
+            Engenharia de Materiais aplicada à arquitetura de software e
+            refatoração de sistemas legados, combinada a uma forte atuação em{" "}
+            <strong>liderança e gestão de equipes</strong> no terceiro setor.
           </Paragrafo>
 
           <Paragrafo>
-            <strong>Inteligência emocional</strong> é um dos meus pilares e a
-            partir dela busco melhorar meu autoconhecimento.{" "}
-            <strong>Comunicação é o meu forte</strong>: gosto de falar com
-            pessoas, além de compartilhar e apresentar meus processos produtivos
-            e resultados
+            Acredito que{" "}
+            <strong>inteligência emocional e comunicação clara</strong> são
+            componentes tão vitais para o sucesso de um produto quanto um código
+            limpo, por isso valorizo essas habilidades e levo elas como{" "}
+            <strong>pilares da minha jornada profissional</strong>.
           </Paragrafo>
 
           <Paragrafo>
-            <strong>Estou em busca de oportunidades</strong> na área de
-            desenvolvimento front-end, em que eu possa aplicar e desenvolver
-            minhas habilidades técnicas, comportamentais e interpessoais, onde
-            eu possa crescer e evoluir como profissional.
+            Minha experiência inclui a{" "}
+            <strong>
+              otimização de rotas de dados que reduziram custos de
+              infraestrutura
+            </strong>{" "}
+            e o design de experiências de aprendizagem (DEXA) que impactaram
+            centenas de pessoas. Trabalho com alta <strong>autonomia</strong> em
+            ambientes remotos e dinâmicos, utilizando metodologias visuais como
+            o Kanban para garantir{" "}
+            <strong>previsibilidade e organização nas entregas</strong>.
           </Paragrafo>
 
           <Paragrafo>
             <strong>
-              Vamos conversar sobre como posso agregar valor à sua equipe ou
-              projeto?
+              Vamos conversar sobre como posso agregar valor técnico ao seu
+              time?
             </strong>{" "}
             Ao final da página você encontra minhas informações para contato.
           </Paragrafo>
@@ -62,18 +71,20 @@ export const SobreMim = () => {
             <ul>
               <Item imgSrc={rct} nome="React" />
               <Item imgSrc={js} nome="JavaScript" />
-              <Item imgSrc={html} nome="CSS" />
-              <Item imgSrc={css} nome="HTML" />
+              <Item imgSrc={ts} nome="TypseScript" />
+              <Item imgSrc={html} nome="CSS3" />
+              <Item imgSrc={css} nome="HTML5" />
             </ul>
           </Stacks>
 
           <Ferramentas>
-            <Titulo2>Ferramentas</Titulo2>
+            <Titulo2>Ferramentas e processos</Titulo2>
             <ul>
-              <Item imgSrc={git} nome="Git" />
-              <Item imgSrc={github} nome="Github" />
+              <Item imgSrc={rct} nome="REST APIs" />
               <Item imgSrc={rct} nome="Styled Components" />
-              <Item imgSrc={trello} nome="Trello" />
+              <Item imgSrc={github} nome="Versionamento (Git e Github)" />
+              <Item imgSrc={git} nome="Gitflow" />
+              <Item imgSrc={trello} nome="Kanban (Trello)" />
               <Item imgSrc={figma} nome="Figma" />
             </ul>
           </Ferramentas>

@@ -34,10 +34,14 @@ export const Header = () => {
         </Infos>
 
         <HeaderParagrafo>
-          Resolvo problemas de forma <strong>multidisciplinar</strong> e{" "}
-          <strong>criativa</strong>, tendo <strong>comunicação</strong> e{" "}
-          <strong>inteligência emocional</strong> como pilares. Vamos nos
-          conectar?
+          Focada em{" "}
+          <strong>
+            performance, otimização de sistemas e interfaces responsivas
+          </strong>
+          , uno a minha base analítica da engenharia a uma forte bagagem em{" "}
+          <strong>liderança ágil</strong> para entregar{" "}
+          <strong>soluções eficientes</strong>.<br></br>☕ Pega um café e vem me
+          conhecer!
         </HeaderParagrafo>
 
         <Links>

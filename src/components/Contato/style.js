@@ -9,9 +9,10 @@ export const Container = styled.section`
 
   padding: 2rem 1rem;
 
-  > h3 {
+  > p {
     padding-top: 2rem;
     text-align: center;
+    max-width: 1000px;
 
     > a {
       color: var(--azul-bebe);
