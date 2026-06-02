@@ -78,7 +78,7 @@ export const Paragrafo = styled.p`
 
 export const Span = styled.span`
   font-family: var(--nunito);
-  font-size: 1.125rem;
+  font-size: 1rem;
   font-weight: 500;
 
   @media (max-width: 725px) {

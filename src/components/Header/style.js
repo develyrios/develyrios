@@ -83,9 +83,11 @@ export const Infos = styled.div`
 
 export const HeaderTitulo = styled.h1`
   width: fit-content;
+  display: flex;
+  justify-content: end;
 
   .logo-grande {
-    width: 100%;
+    width: 80%;
   }
 
   .logo-pequena {
@@ -99,8 +101,6 @@ export const HeaderSubTitulo = styled.h2`
   text-align: right;
 
   font-family: var(--poppins);
-
-  padding-bottom: 2rem;
 
   @media (max-width: 1440px) {
     font-size: 2.5rem;
@@ -128,8 +128,6 @@ export const HeaderParagrafo = styled.p`
   text-align: right;
 
   font-family: var(--nunito);
-
-  padding-bottom: 2rem;
 
   @media (max-width: 1440px) {
     font-size: 1.75rem;
