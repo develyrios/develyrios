@@ -1,4 +1,4 @@
-import { ListaDescritiva, Titulo1 } from "../../styles/Text";
+import { ListaDescritiva, Paragrafo, Titulo1 } from "../../styles/Text";
 import { Experiencia } from "../Experiencia";
 import { Container } from "./style";
 
@@ -15,14 +15,16 @@ export const Experiencias = () => {
           stacks="React | JavaScript | HTML5 | CSS3 | Kanban | GitFlow"
         >
           <ListaDescritiva>
-            <li>
+            <Paragrafo>
               Atuação com total autonomia em ambiente remoto acelerado,
               utilizando metodologia Kanban para gerenciar backlogs e demandas
-              de alta prioridade;
-            </li>
+              de alta prioridade.
+            </Paragrafo>
+            <br></br>
             <li>
-              Liderei a modernização do sistema migrando páginas críticas em PHP
-              para React, focando em componentização e Clean Code;
+              Atuei, junto do backend, na modernização do sistema migrando
+              páginas críticas em PHP para React, focando em componentização e
+              Clean Code;
             </li>
             <li>
               Refatorei rotas e responses de dados em parceria com o backend,
@@ -50,7 +52,7 @@ export const Experiencias = () => {
         </Experiencia>
 
         <Experiencia
-          nome="Desenvolvedora Frontend e Coordenadora de Aprendizagem"
+          nome="Desenvolvedora Frontend e Facilitadora de Aprendizagem"
           instituicao="DiversificaDev"
           subtitulo="Voluntariado"
           ano="Ago/2024 - Dez/2025"
@@ -58,8 +60,8 @@ export const Experiencias = () => {
         >
           <ListaDescritiva>
             <li>
-              Liderança, coordenação e alinhamento técnico da equipe de mentores
-              e monitores de Frontend;
+              Facilitação, coordenação e alinhamento técnico da equipe de
+              mentores e monitores de Frontend;
             </li>
             <li>
               Idealização e arquitetura de projetos práticos e materiais
@@ -82,7 +84,7 @@ export const Experiencias = () => {
         </Experiencia>
 
         <Experiencia
-          nome="Desenvolvedora Frontend e Coordenadora de Equipe"
+          nome="Desenvolvedora Frontend e Facilitadora de Squad"
           instituicao="SOS Trans"
           subtitulo="Bootcamp"
           ano="Fev/2025 - Maio/2025"
@@ -93,8 +95,9 @@ export const Experiencias = () => {
               dentro de um ecossistema ágil com papéis de PO, PM e Scrum Master;
             </li>
             <li>
-              Responsável pelo processo seletivo, triagem e recrutamento de
-              participantes para a formação das squads de desenvolvimento;
+              Responsável pelo mapeamento de competências, triagem e
+              recrutamento de participantes para a formação das squads de
+              desenvolvimento;
             </li>
             <li>
               Gestão de comunidade e mediação de conflitos sob alta pressão,

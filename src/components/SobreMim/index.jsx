@@ -32,7 +32,7 @@ export const SobreMim = () => {
             convergência única: a <strong>mentalidade analítica</strong> da
             Engenharia de Materiais aplicada à arquitetura de software e
             refatoração de sistemas legados, combinada a uma forte atuação em{" "}
-            <strong>liderança e gestão de equipes</strong> no terceiro setor.
+            <strong>facilitação de equipes</strong> no terceiro setor.
           </Paragrafo>
 
           <Paragrafo>
@@ -78,7 +78,7 @@ export const SobreMim = () => {
           </Stacks>
 
           <Ferramentas>
-            <Titulo2>Ferramentas e processos</Titulo2>
+            <Titulo2>Ferramentas</Titulo2>
             <ul>
               <Item imgSrc={rct} nome="REST APIs" />
               <Item imgSrc={rct} nome="Styled Components" />

@@ -38,16 +38,16 @@ export const Header = () => {
           <strong>
             performance, otimização de sistemas e interfaces responsivas
           </strong>
-          , uno a minha base analítica da engenharia a uma forte bagagem em{" "}
-          <strong>liderança ágil</strong> para entregar{" "}
-          <strong>soluções eficientes</strong>.<br></br>☕ Pega um café e vem me
-          conhecer!
+          , uno a minha <strong>base analítica</strong> da engenharia a uma
+          forte bagagem em <strong>facilitação e colaboração de equipes</strong>{" "}
+          para entregar <strong>soluções eficientes</strong>. Pega um café e vem
+          me conhecer! ☕
         </HeaderParagrafo>
 
         <Links>
           <li>
             <a
-              href="https://drive.google.com/file/d/1kZJVtQmxhnwCywC9OaM2STVeCdP2YW1x/view?usp=sharing"
+              href="https://drive.google.com/file/d/1CYchBbKDSiTcbGXiMDHcyG9BtVRgEbjr/view?usp=sharing"
               className="b16"
               target="blank"
             >
