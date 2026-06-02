@@ -10,11 +10,11 @@ export const Container = styled.li`
   border-left: 0.5rem solid transparent;
   transition: 400ms;
 
-  :nth-child(odd) {
+  &:nth-child(odd) {
     background-color: var(--off-black);
   }
 
-  :hover {
+  &:hover {
     border-left: 0.5rem solid var(--azul);
   }
 

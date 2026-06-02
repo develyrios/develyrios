@@ -172,7 +172,7 @@ export const Links = styled.ul`
     background-color: var(--carbono);
     padding: 1rem 2rem;
 
-    :hover {
+    &:hover {
       background-color: var(--cinza);
     }
   }

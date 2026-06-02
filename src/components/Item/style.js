@@ -13,9 +13,13 @@ export const Container = styled.li`
     height: 1.5rem;
   }
 
+  span {
+    cursor: default;
+  }
+
   transition: 400ms;
 
-  :hover {
+  &:hover {
     background-color: var(--cinza);
   }
 

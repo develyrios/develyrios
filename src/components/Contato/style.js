@@ -20,7 +20,7 @@ export const Container = styled.section`
       border-bottom: 0.125rem solid transparent;
       transition: 400ms;
 
-      :hover {
+      &:hover {
         border-bottom: 0.1rem solid var(--azul-bebe);
       }
     }

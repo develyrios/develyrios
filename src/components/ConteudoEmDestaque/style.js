@@ -38,7 +38,7 @@ export const Conteudo = styled.div`
     gap: 2rem;
   }
 
-  ::before {
+  &::before {
     content: " ";
     display: inline-block;
     background-color: var(--detalhe);
@@ -58,7 +58,7 @@ export const Conteudo = styled.div`
       gap: 1rem;
     }
 
-    ::before {
+    &::before {
       display: none;
     }
   }
@@ -119,7 +119,7 @@ export const Post = styled.li`
   @media (max-width: 1000px) {
     position: relative;
 
-    :nth-child(odd)::after {
+    &:nth-child(odd)::after {
       content: " ";
       display: inline-block;
       background-color: var(--detalhe);
