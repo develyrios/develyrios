@@ -39,6 +39,21 @@ export const Titulo2 = styled.h2`
   }
 `;
 
+export const Titulo3 = styled.h3`
+  font-family: var(--poppins);
+  font-weight: 400;
+  font-size: 1.5rem;
+  text-align: left;
+
+  @media (max-width: 725px) {
+    font-size: 1.35rem;
+  }
+
+  @media (max-width: 500px) {
+    font-size: 1.15rem;
+  }
+`;
+
 export const ParagrafoRodape = styled.p`
   font-family: var(--poppins);
   font-weight: 400;
